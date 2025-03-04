@@ -5,3 +5,8 @@ function printMyName() {
 function printMyName2() {
     console.log("My Name is Abdelrahman Sherif");
 }
+
+function printMyNameOmar(){
+  console.log("My Name is Omar Muhammad");  
+}
+
