@@ -14,8 +14,15 @@ function printMyName3(name, ...restOfTheName) {
 
 printMyName3("Ahmed", "Abdelnasser", "Abouzaid");
 printMyName3("Ahmed");
+
 function printMyName() {
   console.log("My Name is Abdelrahman Salah");
+
+}
+
+function printMyNameX() {
+  console.log("HELLO! It's me. My Name is 'Islam Tarek'");
+
 }
 
 function printMyName2() {
@@ -25,3 +32,5 @@ function printMyName2() {
 function printMyNameOmar() {
   console.log("My Name is Omar Muhammad");
 }
+
+
