@@ -1,6 +1,3 @@
-function printMyName() {
-  console.log("My Name is Abdelrahman Salah");
-}
 class Printer {
   constructor(printableItem, ...otherItems) {
     this.printableItem = printableItem;
@@ -10,10 +7,10 @@ class Printer {
     console.log(`${this.printableItem} ${this.otherItems.join(" ")}`);
   }
 }
-function printMyName3(name, ...restOfTheName) {
+function printMyName(name, ...restOfTheName) {
   let printer = new Printer(name, ...restOfTheName);
   printer.print();
 }
 
-printMyName3("Ahmed", "Abdelnasser", "Abouzaid");
-printMyName3("Abdelrahman");
+printMyName("Ahmed", "Abdelnasser", "Abouzaid");
+printMyName("Ahmed");
