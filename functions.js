@@ -7,10 +7,21 @@ class Printer {
     console.log(`${this.printableItem} ${this.otherItems.join(" ")}`);
   }
 }
-function printMyName(name, ...restOfTheName) {
+function printMyName3(name, ...restOfTheName) {
   let printer = new Printer(name, ...restOfTheName);
   printer.print();
 }
 
-printMyName("Ahmed", "Abdelnasser", "Abouzaid");
-printMyName("Ahmed");
+printMyName3("Ahmed", "Abdelnasser", "Abouzaid");
+printMyName3("Ahmed");
+function printMyName() {
+  console.log("My Name is Abdelrahman Salah");
+}
+
+function printMyName2() {
+  console.log("My Name is Abdelrahman Sherif");
+}
+
+function printMyNameOmar() {
+  console.log("My Name is Omar Muhammad");
+}
